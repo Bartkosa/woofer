@@ -1,0 +1,109 @@
+﻿.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    //justify-content: center;
+}
+
+
+
+.modalContainer {
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: fixed;
+    width: 500px;
+    height: 550px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+#cancelBtn {
+    background-color: crimson;
+}
+
+titleCloseBtn {
+    display: flex;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.modalContainer .body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+label,
+input {
+    /* In order to define widths */
+    display: inline-block;
+
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+    label + input {
+        width: 45%;
+        margin: 2% 20% 0 4%;
+    }
+
+    label + select {
+        width: 45%;
+        margin: 2% 20% 0 4%;
+    }
+
+input + input {
+    float: right;
+}
+
+select + select {
+    float: right;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+

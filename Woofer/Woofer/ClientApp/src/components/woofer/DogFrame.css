@@ -1,0 +1,24 @@
+﻿.containerImg {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+    .containerImg .btnImg {
+        position: absolute;
+        top: 115px;
+        left: calc(50% + 100px);
+        background-color: #dc3545;
+        color: white;
+        font-size: 16px;
+        padding: 8px 14px;
+        border:none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+        .containerImg .btnImg:hover {
+            background-color: black;
+        }
